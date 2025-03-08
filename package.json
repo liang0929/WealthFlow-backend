@@ -1,0 +1,29 @@
+{
+  "name": "wealthflow-backend",
+  "version": "0.1.0",
+  "description": "This is an api for wealthflow-backend.",
+  "homepage": "https://github.com/liang0929/WealthFlow-backend#readme",
+  "bugs": {
+    "url": "https://github.com/liang0929/WealthFlow-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liang0929/WealthFlow-backend.git"
+  },
+  "license": "MIT",
+  "author": "Bryan",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node app.js"
+  },
+  "dependencies": {
+    "@azure-rest/ai-inference": "latest",
+    "@azure/core-auth": "latest",
+    "@azure/core-sse": "latest",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
